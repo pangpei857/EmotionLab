@@ -1,0 +1,22 @@
+```gitignore
+# Python 缓存
+__pycache__/
+*.pyc
+
+# Python 虚拟环境
+.venv/
+venv/
+
+# 编辑器文件
+.vscode/
+
+# 环境变量和密钥
+.env
+.env.*
+
+# Jupyter 缓存
+.ipynb_checkpoints/
+
+# 本地模型和数据文件
+models/
+data/
