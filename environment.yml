@@ -1,0 +1,11 @@
+name: emotionlab
+
+channels:
+  - conda-forge
+
+dependencies:
+  - python=3.11
+  - pip
+  - numpy>=1.26,<3
+  - pip:
+      - -r requirements.txt
