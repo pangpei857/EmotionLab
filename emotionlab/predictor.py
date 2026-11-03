@@ -1,5 +1,7 @@
+from emotionlab.preprocessing import clean_text
+
 def predict_emotion(text):
-    text = text.lower()
+    text = clean_text(text)
 
     if "happy" in text:
         return "joy"
